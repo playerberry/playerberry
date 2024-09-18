@@ -1,0 +1,5 @@
+packages:http-codes:
+  - changed-files:
+      - any-glob-to-any-file:
+          - packages/http-codes/*
+          - packages/http-codes/**/*
