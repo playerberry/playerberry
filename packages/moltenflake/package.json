@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "@playerberry/errors",
+  "name": "@playerberry/moltenflake",
   "version": "0.0.1",
   "description": "",
   "private": true,
@@ -12,8 +12,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write ../../artifacts/errors && eslint --fix ../../artifacts/errors",
-    "lint": "prettier --check ../../artifacts/errors && eslint ../../artifacts/errors",
+    "format": "prettier --write ../../artifacts/moltenflake && eslint --fix ../../artifacts/moltenflake",
+    "lint": "prettier --check ../../artifacts/moltenflake && eslint ../../artifacts/moltenflake",
     "test": "vitest"
   },
   "keywords": [
@@ -29,7 +29,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/playerberry/playerberry.git",
-    "directory": "packages/errors"
+    "directory": "packages/moltenflake"
   },
   "bugs": {
     "email": "kendinikertenkelebek@me.com",

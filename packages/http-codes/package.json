@@ -36,7 +36,7 @@
     "url": "https://github.com/playerberry/playerberry/issues"
   },
   "engines": {
-    "node": ">= 22.6.0"
+    "node": ">= 22.8.0"
   },
   "license": "LGPL-3.0-or-later",
   "author": "Yankı Küçük <kendinikertenkelebek@me.com>",
