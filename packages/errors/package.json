@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "@playerberry/errors",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "types": "./typings/index.d.ts",
+  "directories": {
+    "lib": "src",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write ../../artifacts/errors && eslint --fix ../../artifacts/errors",
+    "lint": "prettier --check ../../artifacts/errors && eslint ../../artifacts/errors",
+    "test": "vitest"
+  },
+  "keywords": [
+    "need",
+    "to",
+    "spesify",
+    "for",
+    "every",
+    "package"
+  ],
+  "homepage": "https://github.com/playerberry/playerberry",
+  "funding": "https://github.com/playerberry/playerberry?sponsor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/playerberry/playerberry.git",
+    "directory": "packages/errors"
+  },
+  "bugs": {
+    "email": "kendinikertenkelebek@me.com",
+    "url": "https://github.com/playerberry/playerberry/issues"
+  },
+  "engines": {
+    "node": ">= 22.6.0"
+  },
+  "license": "LGPL-3.0-or-later",
+  "author": "Yankı Küçük <kendinikertenkelebek@me.com>",
+  "packageManager": "pnpm@9.10.0"
+}

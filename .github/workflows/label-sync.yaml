@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - stage
     paths:
       - '.github/labels.yaml'
 jobs:
