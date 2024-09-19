@@ -1,3 +1,11 @@
 {
-  "bookmarks.saveBookmarksInProject": true
+  "bookmarks.saveBookmarksInProject": true,
+  "less.compile": {
+    "compress": true,
+    "javascriptEnabled": true,
+    "out": "../../../artifacts/uandi/style",
+    "outExt": ".css",
+    "relativeUrls": true,
+    "main": "_main.less"
+  }
 }

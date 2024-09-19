@@ -1,0 +1,23 @@
+@keyframes supertext {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.super-text {
+  font-weight: 600;
+  background: @pb-super-color;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 600%;
+  animation: supertext 16s linear infinite;
+}
